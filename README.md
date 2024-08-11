@@ -39,6 +39,9 @@ This script uses several Python libraries and tools to fetch the latest XML file
 - Selenium:
     - Selenium is used for automating web browser interaction. Beautiful Soup can only parse static HTML content. It cannot execute JavaScript, so if the content is loaded dynamically with JavaScript, Beautiful Soup won't see it. Selenium can execute JavaScript to get the fully rendered HTML. The Chrome object is used to open the webpage, and Options allows configuring the browser to run in headless mode (without a graphical user interface).
 
+- FPDF & XML:
+    - FPDF library is used to create the PDF and the ElementTree module from the xml package to parse the XML content. 
+
 ## Quick Start 
 
 > Get the code
